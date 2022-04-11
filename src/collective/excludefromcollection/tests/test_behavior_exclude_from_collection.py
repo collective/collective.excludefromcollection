@@ -19,11 +19,13 @@ class ExcludeFromCollectionIntegrationTest(unittest.TestCase):
 
     def setUp(self):
         """Custom shared utility setup for tests."""
-        self.portal = self.layer['portal']
-        setRoles(self.portal, TEST_USER_ID, ['Manager'])
+        self.portal = self.layer["portal"]
+        setRoles(self.portal, TEST_USER_ID, ["Manager"])
 
     def test_behavior_exclude_from_collection(self):
-        behavior = getUtility(IBehavior, 'collective.excludefromcollection.exclude_from_collection')
+        behavior = getUtility(
+            IBehavior, "collective.excludefromcollection.exclude_from_collection"
+        )
         self.assertEqual(
             behavior.marker,
             IExcludeFromCollectionMarker,

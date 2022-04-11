@@ -1,9 +1,0 @@
-<configure xmlns="http://namespaces.zope.org/zope">
-
-  <adapter factory=".exclude_from_navigation.dummy"
-    name="exclude_from_navigation" />
-
-  <adapter factory=".exclude_from_navigation.exclude_from_navigation"
-    name="exclude_from_navigation" />
-
-</configure>

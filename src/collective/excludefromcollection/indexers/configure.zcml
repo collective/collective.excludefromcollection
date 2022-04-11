@@ -4,7 +4,7 @@
 
  <!-- -*- extra stuff goes here -*- -->
 
-  <include file="exclude_from_navigation.zcml" />
+  <include file="exclude_from_collection.zcml" />
 
 
 </configure>
