@@ -16,31 +16,31 @@ msgstr ""
 
 #: collective/excludefromcollection/behaviors/exclude_from_collection.py:32
 msgid "Exclude from Collection"
-msgstr ""
+msgstr "Von Kollentionen ausschließen"
 
 #: collective/excludefromcollection/profiles/default/registry/main.xml
 msgid "Excluded from Collection"
-msgstr ""
+msgstr "Von Kollektionen ausgeschlossen"
 
 #: collective/excludefromcollection/profiles/default/registry/main.xml
 msgid "Filters objects which have exclude_from_collection enabled"
-msgstr ""
+msgstr "Filtert Objekte welche über das exclude_from_collection Flag ausgeschlossen wurden"
 
 #: collective/excludefromcollection/behaviors/exclude_from_collection.py:35
 msgid "If this is enabled, one can filter out this object in a collection by using \"Exclude from Collection: False\""
-msgstr ""
+msgstr "Wenn dies aktiviert ist, können einzelne Inhalte für Kollektionen ausgeschlossen werden."
 
 #: collective/excludefromcollection/configure.zcml:27
 msgid "Installs the collective.excludefromcollection add-on."
-msgstr ""
+msgstr "Installiert die collective.excludefromcollection Erweiterung."
 
 #: collective/excludefromcollection/profiles/default/registry/main.xml
 msgid "Metadata"
-msgstr ""
+msgstr "Metadaten"
 
 #: collective/excludefromcollection/configure.zcml:36
 msgid "Uninstalls the collective.excludefromcollection add-on."
-msgstr ""
+msgstr "Deinstalliert die collective.excludefromcollection Erweiterung"
 
 #: collective/excludefromcollection/configure.zcml:27
 msgid "collective.excludefromcollection"
