@@ -5,7 +5,8 @@ Changelog
 1.1 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Improve query string registration and update translations
+  {MrTango]
 
 
 1.0 (2022-04-11)
