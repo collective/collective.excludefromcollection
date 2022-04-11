@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.1 (unreleased)
+1.1 (2022-04-11)
 ----------------
 
 - Improve query string registration and update translations
