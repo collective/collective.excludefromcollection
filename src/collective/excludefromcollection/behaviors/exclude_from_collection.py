@@ -50,7 +50,7 @@ class ExcludeFromCollection(object):
     def exclude_from_collection(self):
         if safe_hasattr(self.context, "exclude_from_collection"):
             return self.context.exclude_from_collection
-        return None
+        return False
 
     @exclude_from_collection.setter
     def exclude_from_collection(self, value):
